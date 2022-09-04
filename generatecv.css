@@ -1,0 +1,18 @@
+.myimg{
+   border-radius: 50%;
+   border: 1px solid black;
+   width: 200px;
+   margin-top: 150px;
+}
+
+.background{
+   background-color: aqua;
+}
+
+#cv-templet{
+   border: 3px solid black;
+}
+
+.bbtn:hover{
+   background-color: #296b11;
+}

@@ -1,0 +1,116 @@
+*{
+   margin:0;
+   padding:0
+}
+
+body{
+   background-image: linear-gradient(60deg, #f5f3f7 0%, #232525 80%);
+}
+ 
+/* css for class sidebar */
+.sidebar{
+   background-color:rgba(113, 191, 150, 0.228);
+   width: 434px;
+   height: 100vh;
+}
+
+.sidebar:hover{
+   background-color:wheat
+}
+.sidebar nav{
+   padding: 40px;
+}
+
+.sidebar nav li{
+   list-style: none;
+   font-size: 20px;
+   padding: 33px 0px;
+}
+
+.sidebar nav li a{
+   text-decoration: none;
+   color: black;
+}
+
+li a:hover{
+   background-color: coral;
+   font-weight: bold;
+}
+
+/* css for class main  */
+.main{
+   width: 100vw;
+}
+
+.container{
+   display: flex;
+}
+
+.infocontainer{
+   height: 78vh;
+   width: 80vw;
+   margin: 30px auto;
+   justify-content : space-around;
+   display: flex;
+}
+
+.devinfo{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   margin-right: -105vh;
+   padding: 0px;
+}
+
+
+
+.hello{
+   font-size: 55px;
+}
+
+.name{
+   font-size: 46px;
+   font-weight: bold;
+}
+
+.about{
+   font-size: 30px;
+}
+
+/* css for button  */
+
+.button{
+   margin-top: 39px;
+}
+
+.button button{
+   border-radius: 22px;
+   padding: 9px 10px;
+   color: white;
+   background-color: blue;
+   font-weight: bold;
+   font-size: 21px;
+   margin: 0 3px;
+   cursor: pointer;
+}
+
+.button button:hover{
+   background-color: #dd6990;
+}
+
+h1{
+   text-shadow: 2px 3px 4px rgba(3, 96, 93, 0.834);
+   position: absolute;
+   top: 5%;
+   left: 25%;
+   background: linear-gradient(90deg, orange,blue,white,green);
+   font-size: 45px;
+   font-family: monospace;
+   letter-spacing: 3px;
+   word-spacing: 3px;
+   -webkit-text-fill-color: transparent;
+}
+
+.main button h1:hover{
+   text-decoration-style: solid;
+}
